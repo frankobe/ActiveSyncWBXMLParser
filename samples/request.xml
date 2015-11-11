@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sync xmlns="AirSync" xmlns:airsyncbase="AirSyncBase" xmlns:contacts="Contacts">
+ <Collections>
+ <Collection>
+ <Class>Contacts</Class>
+ <SyncKey>2</SyncKey>
+ <CollectionId>2</CollectionId>
+ <Status>1</Status>
+ <Commands>
+ <Add>
+ <ServerId>2:1</ServerId>
+ <ApplicationData>
+ <airsyncbase:Body>
+ <airsyncbase:Type>1</airsyncbase:Type>
+ <airsyncbase:EstimatedDataSize>0</airsyncbase:EstimatedDataSize>
+ <airsyncbase:Truncated>1</airsyncbase:Truncated>
+ </airsyncbase:Body>
+ <contacts:FileAs>Funk, Don</contacts:FileAs>
+ <contacts:FirstName>Don</contacts:FirstName>
+ <contacts:LastName>Funk</contacts:LastName>
+ <airsyncbase:NativeBodyType>1</airsyncbase:NativeBodyType>
+ </ApplicationData>
+ </Add>
+ </Commands>
+ </Collection>
+ </Collections>
+</Sync>

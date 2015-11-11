@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ActiveSyncClient.iml" filepath="$PROJECT_DIR$/ActiveSyncClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActiveSyncWBXMLParser.iml" filepath="$PROJECT_DIR$/ActiveSyncWBXMLParser.iml" />
     </modules>
   </component>
 </project>

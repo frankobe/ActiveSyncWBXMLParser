@@ -3,13 +3,15 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import CodePage.*;
+import WBXML.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        File xml = new File("/Users/frankobe/Desktop/sample.xml");
-        File wbxml = new File("/Users/frankobe/Desktop/sampleOuput.wbxml");
-        File output = new File("/Users/frankobe/Desktop/output.xml");
+        File xml = new File("samples/sample.xml");
+        File wbxml = new File("samples/response-1858.wbxml");
+        File output = new File("output.xml");
 
         CodePage[] mCodePages = new CodePage[22];
         mCodePages[0] = new AirSyncCodePage();
